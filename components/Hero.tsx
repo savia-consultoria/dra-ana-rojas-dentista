@@ -103,24 +103,13 @@ export function Hero() {
             />
             <div className="relative h-full w-full overflow-hidden rounded-[2rem] bg-brand-50 shadow-soft ring-1 ring-white/60">
               <Image
-                src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1200&q=80"
-                alt="Dra. Ana Rojas atendiendo a un paciente en su consultorio dental"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80"
+                alt="Paciente sonriendo después de su tratamiento con la Dra. Ana Rojas"
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 480px"
                 className="object-cover"
               />
-
-              {/* Floating cards */}
-              <div className="absolute left-4 top-4 rounded-2xl bg-white/95 px-4 py-3 shadow-card backdrop-blur">
-                <p className="text-[10px] font-semibold uppercase tracking-widest text-brand-700">
-                  Hoy disponible
-                </p>
-                <p className="mt-1 flex items-center gap-2 text-sm font-semibold text-ink">
-                  <span className="h-2 w-2 animate-soft-pulse rounded-full bg-emerald-500" />
-                  Citas a partir de las 4:00 pm
-                </p>
-              </div>
             </div>
 
             <div className="absolute -bottom-6 -left-6 hidden rounded-2xl bg-white p-4 shadow-card sm:block">
@@ -137,15 +126,6 @@ export function Hero() {
                   </p>
                 </div>
               </div>
-            </div>
-
-            <div className="absolute -right-4 top-1/3 hidden rounded-2xl bg-brand-500 p-4 text-white shadow-soft sm:block">
-              <p className="font-display text-3xl font-semibold leading-none">
-                5.0
-              </p>
-              <p className="mt-1 text-[11px] font-medium uppercase tracking-widest opacity-80">
-                Calificación Google
-              </p>
             </div>
           </div>
         </div>
