@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Menu, X, MessageCircle } from "lucide-react";
+import { Menu, X, CalendarCheck } from "lucide-react";
 import { Logo } from "./Logo";
 import { site } from "@/lib/site";
 
@@ -59,12 +59,12 @@ export function Navbar() {
 
         <div className="hidden lg:block">
           <a
-            href={`${site.whatsapp}?text=${encodeURIComponent(site.whatsappMessage)}`}
+            href={site.appointmentUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"
           >
-            <MessageCircle className="h-4 w-4" aria-hidden="true" />
+            <CalendarCheck className="h-4 w-4" aria-hidden="true" />
             Agendar cita
           </a>
         </div>
@@ -118,14 +118,14 @@ export function Navbar() {
             ))}
           </nav>
           <a
-            href={`${site.whatsapp}?text=${encodeURIComponent(site.whatsappMessage)}`}
+            href={site.appointmentUrl}
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setOpen(false)}
             className="btn-primary mt-4 w-full"
           >
-            <MessageCircle className="h-4 w-4" aria-hidden="true" />
-            Agendar cita por WhatsApp
+            <CalendarCheck className="h-4 w-4" aria-hidden="true" />
+            Agendar cita
           </a>
         </div>
       </div>

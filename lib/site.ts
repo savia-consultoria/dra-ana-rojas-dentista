@@ -8,6 +8,8 @@ export const site = {
   whatsapp: "https://wa.me/52",
   whatsappMessage:
     "Hola Dra. Ana, me gustaría agendar una consulta dental. ¿Tiene disponibilidad esta semana?",
+  appointmentUrl:
+    "https://www.doctoralia.com.mx/ana-rojas/dentista-odontologo/queretaro?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=399163&utm_content=book_visit&rwg_token=AFd1xnFkKUXjGgPX6zVTAjZhJAphEJCwd8q_sB-ZRRiloGROqg0H1nZk1B6pcea3DEDZNOvuidUEdz6g1Wlg5Y2zLHlpeigdDA%3D%3D#highlight-calendar",
   email: "contacto@draanarojas.com",
   rating: {
     stars: 5,
