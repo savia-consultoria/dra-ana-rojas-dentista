@@ -1,2 +1,5 @@
 # dra-ana-rojas-dentista
-Sitio web — Dra. Ana Rojas | Dentista | Dental | Querétaro
+
+Sitio web generado por [Savia Consultoría](https://github.com/savia-consultoria).
+
+Ver [BRIEF.md](./BRIEF.md) para las instrucciones de diseño.
